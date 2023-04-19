@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, Subset
 def load_txt(path :str) -> list:
     return [line.rstrip('\n') for line in open(path)]
 
-corruptions = load_txt('corruptions.txt')
+corruptions = load_txt('noise-C/corruptions.txt')
 
 class DS(Dataset):
     def __init__(self, images, labels, transforms=None, target_transforms=None):

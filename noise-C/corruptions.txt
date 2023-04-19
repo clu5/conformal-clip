@@ -1,0 +1,14 @@
+natural
+gaussian_blur
+motion_blur
+zoom_blur
+snow
+fog
+brightness
+contrast
+elastic_transform
+pixelate
+jpeg_compression
+spatter
+saturate
+frost
